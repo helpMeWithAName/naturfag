@@ -1,0 +1,11 @@
+#background{
+    margin-top: 10em;
+    margin-left: 25em;
+}
+
+@media screen and (max-width:769px) and (min-width:430px) {
+    #background{
+        margin-top: 10em;
+        margin-left: 15em;
+    }
+}

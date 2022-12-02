@@ -1,0 +1,452 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+  #topnav{
+    position: fixed;
+    display: flex;
+    height: 10%;
+    border:  black;
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+    background-color: #fff;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+
+  #middle {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-top: 10em;
+  }
+
+  .elp{
+    width: 100%;
+    height: 100%;
+  }
+
+  #topnav main{
+    display: none;
+  }
+
+  #topnav a{
+    color: #000;
+  }
+
+  .box:hover{
+    background-color: #ddd;
+      }
+    
+
+
+      .box{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:100%;
+        width: 10%;
+        color: #111;
+       
+    }
+
+    .box a{
+      text-decoration: none;
+    }
+
+      
+
+    .sidebar {
+      height: 200%; 
+      width: 0px; 
+      position: fixed;
+      float: right ;
+      background-color: #fff;
+      overflow-x: hidden; 
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    }
+    
+    /* The sidebar links */
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #000;
+      display: block;
+      transition: 0.3s;
+      text-align: right;
+
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidebar a:hover {
+      color: #4ccb61;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .sidebar .closebtn {
+      right: 25px;
+      font-size: 36px;
+     
+    }
+
+
+    /* The button used to open the sidebar */
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      float: right;
+      visibility: collapse;
+      float: right;
+      margin-top: 0%;
+    }
+    
+    .openbtn:hover {
+      background-color: #111;
+    }
+
+  #middle-top-part{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    border:  2px, solid black;
+    width: 100%;
+    text-decoration: none;
+
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height:100% ;
+    margin-left: -15px;
+    background-color: #1e7e2e;
+  }
+
+
+
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .text:hover{
+    background-color: #1e7e2e;
+  }
+
+  #button{
+    padding: 3%;
+    background-color: #82cc8e;
+  }
+
+  button :hover{
+    background-color: #1e7e2e;
+  }
+
+
+  #middle-bottom-part{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 12em;
+    
+  }
+
+.text-middle{
+  width: 30%;
+  height:80% ;
+  margin-left: -1em;
+  background-color: #1e7e2e;
+}
+
+
+
+.text-middle img{
+  width: 100%;
+  height: 100%;
+
+
+}
+
+#bottom_thing{
+  margin-bottom: 8em;
+}
+
+
+
+#footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: bisque;
+  margin-top: 10%;
+  margin-left: -0.5em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width: 430px){
+ 
+ 
+  
+  .openbtn{
+      visibility: visible;
+      font-size: 20px;
+      cursor: pointer;
+      color: #111;
+      float: right;
+      margin-top: 65px;
+      }
+    
+    .openbtn:hover {
+      background-color: #fff;
+    }
+  
+
+    #main{
+width: 30em;
+float: right;
+    }
+
+
+.box{
+ display: none;
+}
+
+
+#topnav{
+  position: fixed;
+  display: flex;
+  height: 15.5%;
+  width: 100%;
+  text-decoration: none;
+  background-color: #fff;
+  margin-top: -4.5em;
+}
+
+.sidebar a {
+  padding: 4px 4px 4px 4px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+  transition: 0.1s;
+  text-align: right;
+  margin-top: 1.5em;
+}
+
+#middle-top-part{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  margin-top: -2em;
+  flex-direction: column;
+
+}
+
+.text{
+  width: 80%;
+  height:90% ;
+  background-color: #1e7e2e;
+}
+
+
+.text p{
+  margin-left: 20px;
+}
+
+#button{
+  margin-left: 0.75em;
+}
+
+#middle-bottom-part{
+  display: flex;
+  flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 25em;
+  
+}
+
+
+.text-middle{
+  width: 100%;
+  height:100% ;
+  margin-left: 0.075em;
+  background-color: #1e7e2e;
+}
+
+#bottom_thing{
+  margin-bottom: 26em;
+}
+
+#background{
+  width: 100%;
+}
+
+img{
+  width: 10em;
+  height: 100%;
+}
+
+#logo{
+ margin-top: 1.4em;
+} 
+}
+  
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 769px) and (min-width: 431px){ 
+  
+
+  
+  .openbtn{
+      visibility: visible;
+      font-size: 20px;
+      cursor: pointer;
+      color: #111;
+      float: right;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 65px;
+      margin-left: auto;
+      }
+    
+    .openbtn:hover {
+      background-color: #fff;
+    }
+  
+
+    #main{
+width: 30em;
+float: right;
+    }
+
+
+.box{
+ display: none;
+}
+
+#loaf{
+  margin-left: 340px;
+}
+
+
+#topnav{
+  position: fixed;
+  display: flex;
+  height: 16.5%;
+  width: 100%;
+  text-decoration: none;
+  background-color: #fff;
+  margin-top: -2em;
+}
+
+.sidebar a {
+  padding: 4px 4px 4px 4px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+  transition: 0.1s;
+  text-align: right;
+  margin-top: 60px;
+}
+
+.middel-top-part{
+  display: flex;
+  justify-content: space-around;
+  height: 120%;
+  width: 100%;
+  text-decoration: none;
+  flex-direction: column;
+  margin-left: 15%; 
+}
+
+.text{
+  width: 80%;
+  height:100% ;
+  margin-left: -15px;
+  background-color: #1e7e2e;
+}
+
+.text p{
+  margin-left: 20px;
+}
+
+#button{
+  margin-left: 75px;
+}
+
+.middle-part{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 20em;
+  flex-direction: column;
+  margin-left: 25%;
+  
+}
+
+.text-middle{
+  width: 30%;
+  height:100% ;
+  background-color: #1e7e2e;
+}
+
+
+#bottom_thing{
+  margin-bottom: 7em;
+}
+
+#logo{
+ margin-top: 1em;
+width: 10em;
+}
+}
